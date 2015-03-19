@@ -1,0 +1,41 @@
+
+
+#banner {
+  	background-image: image-url('poster.jpg');
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	background-position: center center;
+  	height: 700px;
+  	margin-top:0px;
+  	margin-bottom: 0px;
+  	position: relative;
+  	display: block;
+}
+
+#newsletter{
+	background-color: tranparent;
+  	position: absolute;
+  	left: 60px;
+  	bottom: 5px;
+	h2{
+	color: $gray;
+	font: $header-font;
+	i{
+	position: absolute;
+	font-size: 100px;
+	color: $pink; 
+	margin-left: -50px;
+	left: 50%;
+	width: 100px;
+	bottom: 10px;
+	text-align: center;
+}
+}
+}
+
+.video {
+  position: absolute;
+  right: 1px;
+  bottom: 50px;
+  display: block;
+}

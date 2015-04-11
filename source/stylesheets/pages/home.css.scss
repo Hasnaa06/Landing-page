@@ -12,11 +12,15 @@
   	display: block;
 }
 
-#newsletter{
-	background-color: tranparent;
-  	position: absolute;
-  	left: 60px;
-  	bottom: 5px;
+#mc_embed_signup{
+	background: transparent; 
+  clear:left; 
+  font:14px RobotoCondensed-regular; 
+  	position: center center;
+    position: absolute;
+    right: 170px;
+  	bottom: 1px;
+    display: block;
 	h2{
 	color: $gray;
 	font: $header-font;
@@ -26,7 +30,6 @@
 	color: $pink; 
 	margin-left: -50px;
 	left: 50%;
-	width: 100px;
 	bottom: 10px;
 	text-align: center;
 }
@@ -34,8 +37,8 @@
 }
 
 .video {
-  position: absolute;
-  right: 1px;
-  bottom: 50px;
+  position: fixed;
+  right: 50px;
+  bottom: 70px;
   display: block;
 }

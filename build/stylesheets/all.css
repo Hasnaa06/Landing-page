@@ -8939,31 +8939,34 @@ button.close {
   display: block; }
 
 /* line 15, /Users/hasnaaguessous/Code/My Souk in the city/Landing page/source/stylesheets/pages/home.css.scss */
-#newsletter {
-  background-color: tranparent;
+#mc_embed_signup {
+  background: transparent;
+  clear: left;
+  font: 14px RobotoCondensed-regular;
+  position: center center;
   position: absolute;
-  left: 60px;
-  bottom: 5px; }
-  /* line 20, /Users/hasnaaguessous/Code/My Souk in the city/Landing page/source/stylesheets/pages/home.css.scss */
-  #newsletter h2 {
+  right: 170px;
+  bottom: 1px;
+  display: block; }
+  /* line 24, /Users/hasnaaguessous/Code/My Souk in the city/Landing page/source/stylesheets/pages/home.css.scss */
+  #mc_embed_signup h2 {
     color: #555555;
     font: "RobotoCondensed-bold"; }
-    /* line 23, /Users/hasnaaguessous/Code/My Souk in the city/Landing page/source/stylesheets/pages/home.css.scss */
-    #newsletter h2 i {
+    /* line 27, /Users/hasnaaguessous/Code/My Souk in the city/Landing page/source/stylesheets/pages/home.css.scss */
+    #mc_embed_signup h2 i {
       position: absolute;
       font-size: 100px;
       color: #f2a7a2;
       margin-left: -50px;
       left: 50%;
-      width: 100px;
       bottom: 10px;
       text-align: center; }
 
-/* line 36, /Users/hasnaaguessous/Code/My Souk in the city/Landing page/source/stylesheets/pages/home.css.scss */
+/* line 39, /Users/hasnaaguessous/Code/My Souk in the city/Landing page/source/stylesheets/pages/home.css.scss */
 .video {
-  position: absolute;
-  right: 1px;
-  bottom: 50px;
+  position: fixed;
+  right: 50px;
+  bottom: 70px;
   display: block; }
 
 /* -------------------------------------

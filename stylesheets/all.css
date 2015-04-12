@@ -8954,7 +8954,9 @@ button.close {
   position: fixed;
   right: 50px;
   bottom: 100px;
-  display: block; }
+  display: inline-block;
+  height: auto;
+  width: auto; }
 
 /* -------------------------------------
  * Colors & Fonts

@@ -8930,6 +8930,7 @@ button.close {
 #banner {
   background-image: url("../images/poster.jpg");
   background-repeat: no-repeat;
+  background-position: center center;
   background-size: cover;
   height: 700px;
   margin-top: 0px;
@@ -8937,7 +8938,7 @@ button.close {
   position: relative;
   display: block; }
 
-/* line 15, /Users/hasnaaguessous/Code/My Souk in the city/Landing page/source/stylesheets/pages/home.css.scss */
+/* line 16, /Users/hasnaaguessous/Code/My Souk in the city/Landing page/source/stylesheets/pages/home.css.scss */
 #mc_embed_signup {
   background: transparent;
   clear: left;
@@ -8948,14 +8949,12 @@ button.close {
   bottom: -20px;
   display: block; }
 
-/* line 26, /Users/hasnaaguessous/Code/My Souk in the city/Landing page/source/stylesheets/pages/home.css.scss */
+/* line 27, /Users/hasnaaguessous/Code/My Souk in the city/Landing page/source/stylesheets/pages/home.css.scss */
 .video {
   position: fixed;
   right: 50px;
   bottom: 100px;
-  display: inline-block;
-  height: auto;
-  width: auto; }
+  display: inline-block; }
 
 /* -------------------------------------
  * Colors & Fonts

@@ -1,0 +1,29 @@
+/* line 3, /Users/hasnaaguessous/Code/My Souk in the city/Landing page/source/stylesheets/pages/home.css.scss */
+#banner {
+  background-image: url("../../images/poster.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 700px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  position: relative;
+  display: block; }
+
+/* line 15, /Users/hasnaaguessous/Code/My Souk in the city/Landing page/source/stylesheets/pages/home.css.scss */
+#mc_embed_signup {
+  background: transparent;
+  clear: left;
+  font: 14px RobotoCondensed-regular;
+  position: center center;
+  position: fixed;
+  right: 250px;
+  bottom: -20px;
+  display: block; }
+
+/* line 26, /Users/hasnaaguessous/Code/My Souk in the city/Landing page/source/stylesheets/pages/home.css.scss */
+.video {
+  position: fixed;
+  right: 50px;
+  bottom: 100px;
+  display: block; }

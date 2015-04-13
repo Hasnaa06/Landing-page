@@ -8930,15 +8930,32 @@ button.close {
 #banner {
   background-image: url("../images/poster.jpg");
   background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  height: 700px;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  background-size: 100%;
+  margin: 0;
+  padding: 0;
   position: relative;
-  display: block; }
+  display: block;
+  height: 100%;
+  width: 100%; }
 
-/* line 16, /Users/hasnaaguessous/Code/My Souk in the city/Landing page/source/stylesheets/pages/home.css.scss */
+/* line 15, /Users/hasnaaguessous/Code/My Souk in the city/Landing page/source/stylesheets/pages/home.css.scss */
+.video {
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 56,25%;
+  position: relative; }
+
+/* line 23, /Users/hasnaaguessous/Code/My Souk in the city/Landing page/source/stylesheets/pages/home.css.scss */
+.video iframe {
+  position: fixed;
+  right: 50px;
+  bottom: 40px;
+  width: 40%;
+  height: 50%;
+  display: inline-block; }
+
+/* line 33, /Users/hasnaaguessous/Code/My Souk in the city/Landing page/source/stylesheets/pages/home.css.scss */
 #mc_embed_signup {
   background: transparent;
   clear: right;
@@ -8947,13 +8964,6 @@ button.close {
   position: relative;
   left: 50px;
   top: 10px;
-  display: inline-block; }
-
-/* line 27, /Users/hasnaaguessous/Code/My Souk in the city/Landing page/source/stylesheets/pages/home.css.scss */
-.video {
-  position: fixed;
-  right: 50px;
-  bottom: 50px;
   display: inline-block; }
 
 /* -------------------------------------

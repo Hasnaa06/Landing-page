@@ -8927,43 +8927,39 @@ button.close {
     border-bottom: 2px solid; }
 
 /* line 3, /Users/hasnaaguessous/Code/My Souk in the city/Landing page/source/stylesheets/pages/home.css.scss */
-#banner {
-  background-image: url("../images/poster.jpg");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  margin: 0;
-  padding: 0;
-  position: relative;
-  display: block;
-  height: 100%;
+body {
+  background: url("../images/poster.jpg") no-repeat center center fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   width: 100%; }
 
-/* line 15, /Users/hasnaaguessous/Code/My Souk in the city/Landing page/source/stylesheets/pages/home.css.scss */
+/* line 12, /Users/hasnaaguessous/Code/My Souk in the city/Landing page/source/stylesheets/pages/home.css.scss */
 .video {
   width: 100%;
   height: 0;
   overflow: hidden;
-  padding-bottom: 56,25%;
+  padding-bottom: 55%;
   position: relative; }
 
-/* line 23, /Users/hasnaaguessous/Code/My Souk in the city/Landing page/source/stylesheets/pages/home.css.scss */
+/* line 20, /Users/hasnaaguessous/Code/My Souk in the city/Landing page/source/stylesheets/pages/home.css.scss */
 .video iframe {
   position: fixed;
-  right: 50px;
-  bottom: 40px;
-  width: 40%;
-  height: 50%;
-  display: inline-block; }
+  right: 40px;
+  bottom: 18%;
+  width: 45%;
+  height: 60%; }
 
-/* line 33, /Users/hasnaaguessous/Code/My Souk in the city/Landing page/source/stylesheets/pages/home.css.scss */
+/* line 29, /Users/hasnaaguessous/Code/My Souk in the city/Landing page/source/stylesheets/pages/home.css.scss */
 #mc_embed_signup {
   background: transparent;
-  clear: right;
   font: 14px RobotoCondensed-regular;
-  position: center center;
-  position: relative;
-  left: 50px;
-  top: 10px;
+  position: fixed;
+  width: 45%;
+  height: 20%;
+  right: 50px;
+  bottom: -30px;
   display: inline-block; }
 
 /* -------------------------------------

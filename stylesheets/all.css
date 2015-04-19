@@ -8938,7 +8938,7 @@ body {
 @media screen and (max-device-width: 480px) {
   /* line 13, /Users/hasnaaguessous/Code/My Souk in the city/Landing page/source/stylesheets/pages/home.css.scss */
   body {
-    background-size: cover; } }
+    background-size: 100%; } }
 /* line 18, /Users/hasnaaguessous/Code/My Souk in the city/Landing page/source/stylesheets/pages/home.css.scss */
 .video {
   width: 100%;

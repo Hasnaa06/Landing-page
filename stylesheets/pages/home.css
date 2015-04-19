@@ -4,13 +4,14 @@ body {
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover; }
+  -o-background-size: cover;
+  -ms-background-size: cover; }
 
 @media screen and (max-device-width: 480px) {
-  /* line 12, /Users/hasnaaguessous/Code/My Souk in the city/Landing page/source/stylesheets/pages/home.css.scss */
+  /* line 13, /Users/hasnaaguessous/Code/My Souk in the city/Landing page/source/stylesheets/pages/home.css.scss */
   body {
-    background: none; } }
-/* line 17, /Users/hasnaaguessous/Code/My Souk in the city/Landing page/source/stylesheets/pages/home.css.scss */
+    background-size: 100%; } }
+/* line 18, /Users/hasnaaguessous/Code/My Souk in the city/Landing page/source/stylesheets/pages/home.css.scss */
 .video {
   width: 100%;
   height: 0;
@@ -18,7 +19,7 @@ body {
   padding-bottom: 55%;
   position: relative; }
 
-/* line 25, /Users/hasnaaguessous/Code/My Souk in the city/Landing page/source/stylesheets/pages/home.css.scss */
+/* line 26, /Users/hasnaaguessous/Code/My Souk in the city/Landing page/source/stylesheets/pages/home.css.scss */
 .video iframe {
   position: fixed;
   right: 40px;
@@ -26,7 +27,7 @@ body {
   width: 45%;
   height: 60%; }
 
-/* line 34, /Users/hasnaaguessous/Code/My Souk in the city/Landing page/source/stylesheets/pages/home.css.scss */
+/* line 35, /Users/hasnaaguessous/Code/My Souk in the city/Landing page/source/stylesheets/pages/home.css.scss */
 #mc_embed_signup {
   background: transparent;
   font: 14px RobotoCondensed-regular;

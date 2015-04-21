@@ -8927,47 +8927,44 @@ button.close {
     border-bottom: 2px solid; }
 
 /* line 3, /Users/hasnaaguessous/Code/My Souk in the city/Landing page/source/stylesheets/pages/home.css.scss */
-#banner {
-  background-image: url("../images/poster.jpg");
-  background-repeat: no-repeat;
+body {
+  background: url("../images/poster.jpg") no-repeat center fixed;
   background-size: cover;
-  background-position: center center;
-  height: 700px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  position: relative;
-  display: block; }
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover; }
 
-/* line 15, /Users/hasnaaguessous/Code/My Souk in the city/Landing page/source/stylesheets/pages/home.css.scss */
+@media screen and (max-device-width: 480px) {
+  /* line 13, /Users/hasnaaguessous/Code/My Souk in the city/Landing page/source/stylesheets/pages/home.css.scss */
+  body {
+    background-size: 100%; } }
+/* line 18, /Users/hasnaaguessous/Code/My Souk in the city/Landing page/source/stylesheets/pages/home.css.scss */
+.video {
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 55%;
+  position: relative; }
+
+/* line 26, /Users/hasnaaguessous/Code/My Souk in the city/Landing page/source/stylesheets/pages/home.css.scss */
+.video iframe {
+  position: fixed;
+  right: 40px;
+  bottom: 18%;
+  width: 45%;
+  height: 60%; }
+
+/* line 35, /Users/hasnaaguessous/Code/My Souk in the city/Landing page/source/stylesheets/pages/home.css.scss */
 #mc_embed_signup {
   background: transparent;
-  clear: left;
   font: 14px RobotoCondensed-regular;
-  position: center center;
-  position: absolute;
-  right: 170px;
-  bottom: 1px;
-  display: block; }
-  /* line 24, /Users/hasnaaguessous/Code/My Souk in the city/Landing page/source/stylesheets/pages/home.css.scss */
-  #mc_embed_signup h2 {
-    color: #555555;
-    font: "RobotoCondensed-bold"; }
-    /* line 27, /Users/hasnaaguessous/Code/My Souk in the city/Landing page/source/stylesheets/pages/home.css.scss */
-    #mc_embed_signup h2 i {
-      position: absolute;
-      font-size: 100px;
-      color: #f2a7a2;
-      margin-left: -50px;
-      left: 50%;
-      bottom: 10px;
-      text-align: center; }
-
-/* line 39, /Users/hasnaaguessous/Code/My Souk in the city/Landing page/source/stylesheets/pages/home.css.scss */
-.video {
   position: fixed;
+  width: 45%;
+  height: 20%;
   right: 50px;
-  bottom: 70px;
-  display: block; }
+  bottom: -20px;
+  display: inline-block; }
 
 /* -------------------------------------
  * Colors & Fonts

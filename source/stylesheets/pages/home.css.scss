@@ -1,44 +1,47 @@
 
 
-#banner {
-  	background-image: image-url('poster.jpg');
-  	background-repeat: no-repeat;
-  	background-size: cover;
-  	background-position: center center;
-  	height: 700px;
-  	margin-top:0px;
-  	margin-bottom: 0px;
-  	position: relative;
-  	display: block;
+body {
+  background: image-url('poster.jpg') no-repeat center fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover; 
+  -o-background-size: cover; 
+  -ms-background-size: cover;
 }
 
-#mc_embed_signup{
-	background: transparent; 
-  clear:left; 
-  font:14px RobotoCondensed-regular; 
-  	position: center center;
-    position: absolute;
-    right: 170px;
-  	bottom: 1px;
-    display: block;
-	h2{
-	color: $gray;
-	font: $header-font;
-	i{
-	position: absolute;
-	font-size: 100px;
-	color: $pink; 
-	margin-left: -50px;
-	left: 50%;
-	bottom: 10px;
-	text-align: center;
-}
+@media screen and (max-device-width: 480px) {
+body {
+background-size: 100%;
 }
 }
 
 .video {
-  position: fixed;
-  right: 50px;
-  bottom: 70px;
-  display: block;
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 55%;
+  position: relative;
 }
+
+.video iframe {
+  position: fixed;
+  right: 40px;
+  bottom: 18%;
+  width: 45%;
+  height: 60%;
+}
+
+
+#mc_embed_signup{
+  background: transparent; 
+  font:14px RobotoCondensed-regular; 
+  position: fixed;
+  width: 45%;
+  height: 20%;
+  right: 50px;
+  bottom: -20px;
+  display: inline-block;
+}
+
+
+
